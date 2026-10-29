@@ -1,29 +1,1392 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#f6f6f6"><title>SAI GRANITO INDIA — The Art of Stone</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@400&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{color-scheme:light;--ink:#173d34;--gold:#8b6b2a;--nav:#f0f0f0;--navon:#2b2b2b;--dark:#222;--bg:#f6f6f6;--txt:#111;--sage:#c7c9c2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}body{margin:0;background:var(--bg);color:var(--txt);font-family:"Cormorant Garamond",Georgia,serif}button,input,textarea{font:inherit}header{text-align:center;padding:74px 12px 0;background:repeating-linear-gradient(45deg,#f7f7f7,#f7f7f7 2px,#f1f1ef 2px,#f1f1ef 4px)}h1{margin:0 0 60px;font:600 clamp(28px,4vw,46px)/1 Montserrat,Avenir,Arial,sans-serif;color:var(--ink);letter-spacing:.09em}nav{display:flex;flex-wrap:wrap;justify-content:center;gap:1px;background:#fff;max-width:1200px;margin:auto}nav a{background:var(--nav);color:#111;font:400 17px/1 Oswald,"Arial Narrow",sans-serif;padding:22px 20px;cursor:pointer;text-decoration:none;transition:background .25s,color .25s}nav a.on{background:var(--navon);color:#fff}.rule{height:62px;position:relative}.rule:after{content:"";position:absolute;left:19%;right:19%;bottom:6px;border-top:2px solid var(--gold)}.shadowbar{box-shadow:0 2px 4px rgba(0,0,0,.2)}.pg{display:none}.pg.on{display:block}.hero{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;margin-top:58px;background:#222}.hero-tile{height:min(69vw,650px);min-height:350px;position:relative;overflow:hidden;background:#17211e}.hero video,.media-video{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.78)}.hero-tile:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.45),transparent 55%)}.hero-title{position:absolute;z-index:2;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;color:#fff;font:400 clamp(32px,5vw,70px)/.98 "Cormorant Garamond",serif;letter-spacing:.08em;text-shadow:0 2px 20px #000}.hero-title span{display:block;color:#e1c88f;font-size:.62em;letter-spacing:.2em;margin-top:15px}.hero-bottom{background:#fff;text-align:center;padding:38px 20px 52px}.eyebrow{font:600 10px Montserrat,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}.hero-bottom p{font:400 clamp(22px,3vw,34px)/1.35 "Cormorant Garamond",serif;margin:0 auto;max-width:800px}.about{display:flex;min-height:640px;background:#c4c4c4}.about-media{width:50%;min-height:600px;position:relative;background:#1b2925}.about-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.about .t{flex:1;background:linear-gradient(rgba(215,215,210,.84),rgba(215,215,210,.84));padding:85px 5vw 60px;font:400 20px/1.5 "Cormorant Garamond",Georgia,serif}.about h2{font:600 24px/1.45 Montserrat,Avenir,sans-serif;margin:0 0 30px;color:#000}.about p{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.75;max-width:660px}.section-head{text-align:center;padding:70px 20px 35px;background:#f7f7f5}.section-head h2{font:400 clamp(38px,6vw,68px)/1 "Cormorant Garamond",serif;color:var(--ink);margin:0 0 16px}.section-head p{font-size:18px;margin:0 auto;max-width:760px;line-height:1.55;color:#444}.works{background:var(--dark);width:min(1100px,100%);margin:0 auto;padding:25px 18px 70px;text-align:center}.work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.work-card{position:relative;min-height:280px;overflow:hidden;background:#101715;text-align:left}.work-card video,.work-card img{display:block;width:100%;height:100%;min-height:280px;object-fit:cover;position:absolute;inset:0;filter:brightness(.76);transition:transform .7s}.work-card:hover video,.work-card:hover img{transform:scale(1.04)}.work-card .caption{position:absolute;left:22px;right:22px;bottom:20px;color:#fff;font:400 27px "Cormorant Garamond",serif;border-top:1px solid rgba(220,195,137,.8);padding-top:12px}.work-card .caption small{display:block;font:10px Montserrat,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#e2cc98;margin-bottom:7px}.docsbar{height:90px;background:repeating-linear-gradient(90deg,#8d8d8d,#9a9a9a 3px,#888 6px)}.docs{background:var(--dark);width:min(1100px,100%);margin:0 auto;padding:25px 18px 65px}.docs-intro{color:#fff;text-align:center;padding:30px 15px 38px}.docs-intro h2{font:400 clamp(35px,5vw,58px) "Cormorant Garamond",serif;margin:0 0 10px}.docs-intro p{font-size:17px;line-height:1.6;color:#d0d0cb;max-width:740px;margin:auto}.docs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.docs-grid figure{margin:0;position:relative;min-height:240px;overflow:hidden;background:#101715}.docs-grid video{width:100%;height:100%;min-height:240px;position:absolute;inset:0;object-fit:cover;filter:brightness(.75)}.docs-grid figcaption{position:absolute;bottom:0;left:0;right:0;padding:35px 16px 15px;color:white;font:400 23px "Cormorant Garamond",serif;background:linear-gradient(transparent,rgba(0,0,0,.8))}.awards{background:#ccc;width:min(1000px,100%);margin:0 auto;padding:45px 35px 60px;background:linear-gradient(135deg,#d4d4d0,#bcbdb7)}.awards h2{text-align:center;font:400 clamp(34px,5vw,58px) "Cormorant Garamond",serif;margin:0 0 16px;color:#152d27}.awards p{text-align:center;max-width:760px;margin:0 auto 35px;font-size:18px;line-height:1.6}.award-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.award-card{background:#f5f4f0;padding:25px 22px;min-height:180px;border-top:2px solid var(--gold)}.award-card h3{font:600 12px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:0 0 12px}.award-card p{font-size:16px;text-align:left;margin:0}.slide{background:#fff;max-width:1160px;margin:0 auto;padding:32px 0 55px;text-align:center;position:relative}.slide .carousel{display:flex;overflow:hidden;scroll-behavior:smooth;scroll-snap-type:x mandatory;max-width:900px;margin:auto;gap:12px;padding:0 12px}.slide .carousel figure{margin:0;flex:0 0 calc(50% - 6px);scroll-snap-align:start;position:relative;height:390px;background:#222;overflow:hidden}.slide .carousel video{width:100%;height:100%;object-fit:cover;filter:brightness(.8)}.slide .carousel figcaption{position:absolute;left:15px;bottom:15px;color:#fff;font:400 24px "Cormorant Garamond",serif}.slide .ar{position:absolute;top:47%;font-size:48px;color:#b89a5b;cursor:pointer;user-select:none;font-family:Oswald,sans-serif;font-weight:100;z-index:3}.slide .l{left:4px}.slide .r{right:4px}.slide small{display:block;margin-top:35px;font:600 11px Montserrat,sans-serif;color:var(--ink);letter-spacing:.16em;text-transform:uppercase}.contact{background:#fff;max-width:1115px;margin:0 auto;padding:90px 25px 110px;display:flex;justify-content:center;gap:90px;flex-wrap:wrap}.contact .i{font:14px Montserrat,Arial,sans-serif;width:270px;padding-top:12px;line-height:1.9}.contact .i a{color:var(--ink);font-weight:600;text-decoration:none}.btn{display:inline-block;border:1px solid var(--gold);background:#fff;color:var(--gold);font:13px Montserrat,Arial,sans-serif;padding:18px 25px;min-width:180px;text-align:center;cursor:pointer;text-decoration:none;letter-spacing:.04em;transition:background .25s,color .25s}.btn:hover{background:var(--gold);color:white}.contact .i .btn{margin-top:22px}form{width:min(390px,100%);font:17px Oswald,Arial,sans-serif;color:#666}form label{display:block;margin:0 0 4px}form input,form textarea{display:block;width:100%;background:#e5dcc9;border:0;border-radius:0 0 8px 8px;height:44px;margin-bottom:17px;font:16px Arial;padding:8px}form textarea{height:130px;resize:vertical}form button{float:right;background:#6f6a64;color:#fff;border:0;border-radius:0 0 8px 0;padding:11px 18px;font:17px Oswald,Arial;cursor:pointer}footer{display:flex;justify-content:center;gap:30px;padding:65px 20px 75px;align-items:center;flex-wrap:wrap;background:repeating-linear-gradient(45deg,#f7f7f7,#f7f7f7 2px,#f1f1ef 2px,#f1f1ef 4px);color:#343434}footer .brand{font:600 14px Montserrat,sans-serif;letter-spacing:.15em;color:var(--ink)}footer .brand span{display:block;font:12px "Cormorant Garamond",serif;letter-spacing:.18em;margin-top:8px;text-align:center}.copyright{width:100%;text-align:center;font:10px Montserrat,sans-serif;letter-spacing:.08em;color:#777;margin-top:18px}.detail-panel{display:none;background:#f3f2ee;padding:45px 5vw 60px}.detail-panel.open{display:block}.detail-panel .inner{max-width:1050px;margin:auto}.detail-panel .close{display:block;margin:0 0 25px auto;border:0;background:none;color:var(--ink);font:13px Montserrat,sans-serif;cursor:pointer}.detail-panel h3{font:400 clamp(34px,5vw,56px) "Cormorant Garamond",serif;color:var(--ink);margin:0 0 18px}.detail-panel p{font:17px/1.8 Georgia,serif;max-width:850px}.detail-strip{display:flex;gap:12px;overflow-x:auto;margin-top:28px;padding-bottom:12px;scroll-snap-type:x mandatory}.detail-strip img{flex:0 0 min(48%,450px);width:min(48%,450px);height:280px;object-fit:cover;scroll-snap-align:start}.detail-strip video{flex:0 0 min(48%,450px);width:min(48%,450px);height:280px;object-fit:cover;scroll-snap-align:start}.detail-meta{font:10px Montserrat,sans-serif;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);margin-top:20px}
-@media(max-width:900px){h1{font-size:28px;margin-bottom:35px}nav a{padding:15px 11px;font-size:14px}.hero{grid-template-columns:1fr;margin-top:28px;gap:3px}.hero-tile{height:52vw;min-height:230px}.hero-tile:not(:first-child){display:none}.about{flex-direction:column}.about-media{width:100%;min-height:360px;height:55vw}.about .t{padding:38px 22px}.about h2{font-size:20px;margin-bottom:20px}.about p{font-size:16px}.work-grid{grid-template-columns:1fr}.work-card{min-height:260px}.docs-grid{grid-template-columns:1fr 1fr}.docs-grid figure{min-height:210px}.docs-grid video{min-height:210px}.award-cards{grid-template-columns:1fr}.contact{padding:50px 20px 70px;gap:35px}.slide .carousel figure{flex-basis:88%;height:290px}.detail-strip img,.detail-strip video{flex-basis:84%;width:84%;height:240px}header{padding-top:45px}.rule{height:42px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-</style></head><body>
-<header class="shadowbar"><h1>SAI GRANITO INDIA</h1><nav id="nav"><a data-p="home" class="on">Home</a><a data-p="about">About Sai Granito</a><a data-p="works">Collections</a><a data-p="docs">Craft &amp; Technology</a><a data-p="awards">Material &amp; Finish</a><a data-p="sculpture">Our Legacy</a><a data-p="contact">Contact</a></nav><div class="rule" id="rule"></div></header>
-<main>
-<section class="pg on" id="home"><div class="hero"><div class="hero-tile"><video autoplay muted loop playsinline><source src="one.mp4" type="video/mp4"></video><div class="hero-title">SAI GRANITO<span>THE ART OF STONE</span></div></div><div class="hero-tile"><video autoplay muted loop playsinline><source src="three.mp4" type="video/mp4"></video></div><div class="hero-tile"><video autoplay muted loop playsinline><source src="five.mp4" type="video/mp4"></video></div></div><div class="hero-bottom"><div class="eyebrow">A Heda Group Company · Kishangarh, Rajasthan</div><p>Natural stone, shaped by time. Selected with vision. Finished with intention.</p></div></section>
-<section class="pg" id="about"><div class="about"><div class="about-media"><video autoplay muted loop playsinline><source src="two.mp4" type="video/mp4"></video></div><div class="t"><h2>SAI GRANITO INDIA<br>Natural Stone &amp; Architectural Surfaces<br>A Heda Group Company</h2><p>Sai Granito India is rooted in Kishangarh, Rajasthan, one of India’s most recognised centres for marble and natural stone. The company’s journey began in 1982 with Shri Bal Mukund ji Heda and a vision built around material quality, long-term relationships and a lasting respect for natural stone.<br><br>Today, Sai Granito brings together careful stone selection, modern processing and a considered understanding of how marble, granite and distinctive imported surfaces shape architectural spaces. Every stone has its own colour, movement and character; our approach is to help each material find the right place in a project.<br><br>As part of the Heda Group, Sai Granito continues to build on its heritage while looking ahead to new ideas in design, finish and application.</p></div></div><div class="hero-bottom"><div class="eyebrow">Since 1982</div><p>A legacy of experience, material knowledge and enduring relationships.</p></div></section>
-<section class="pg" id="works"><div class="section-head"><div class="eyebrow">Explore the natural collection</div><h2>Find Your Stone</h2><p>Every slab carries a different story. Explore natural movement, colour, texture and finish to find the right expression for your space.</p></div><div class="works"><div class="work-grid"><article class="work-card"><video autoplay muted loop playsinline><source src="three.mp4" type="video/mp4"></video><div class="caption"><small>01 · Natural elegance</small>Marble</div></article><article class="work-card"><video autoplay muted loop playsinline><source src="five.mp4" type="video/mp4"></video><div class="caption"><small>02 · Strength &amp; character</small>Granite</div></article><article class="work-card"><video autoplay muted loop playsinline><source src="one.mp4" type="video/mp4"></video><div class="caption"><small>03 · Distinctive origins</small>Italian &amp; Exotic Stone</div></article><article class="work-card"><video autoplay muted loop playsinline><source src="three.mp4" type="video/mp4"></video><div class="caption"><small>04 · Curated surfaces</small>Architectural Collections</div></article></div></div><div class="hero-bottom"><button class="btn detail-open" data-detail="collections">Explore the Collection ↗</button></div><div class="detail-panel" id="detail-collections"><div class="inner"><button class="close">Close ×</button><div class="eyebrow">The natural collection</div><h3>Find the stone that defines your space.</h3><p>Marble offers expressive veining and timeless elegance; granite brings strength, depth and distinctive pattern; Italian and exotic stones introduce memorable colours and individual visual character. Choose by tone, veining, finish and the feeling you want a space to express. Final selection should be made against the actual available slab, as natural stone varies from piece to piece.</p><div class="detail-strip"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85" alt="Natural marble and stone interior"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Natural stone in a refined interior"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85" alt="Stone surface and interior detail"></div><div class="detail-meta">Marble · Granite · Italian &amp; Exotic Stone</div></div></div></section>
-<section class="pg" id="docs"><div class="docsbar"></div><div class="docs"><div class="docs-intro"><div class="eyebrow">Craft &amp; technology</div><h2>Beyond the Surface</h2><p>Great stonework starts with understanding the material and continues through precision, finishing and quality checks. Technology supports consistency while skilled attention preserves the natural individuality of each slab.</p></div><div class="docs-grid"><figure><video autoplay muted loop playsinline><source src="two.mp4" type="video/mp4"></video><figcaption>Material Selection</figcaption></figure><figure><video autoplay muted loop playsinline><source src="four.mp4" type="video/mp4"></video><figcaption>Craft &amp; Precision</figcaption></figure><figure><video autoplay muted loop playsinline><source src="five.mp4" type="video/mp4"></video><figcaption>Finishing &amp; Detail</figcaption></figure></div></div><div class="hero-bottom"><button class="btn detail-open" data-detail="craft">Discover Our Process ↗</button></div><div class="detail-panel" id="detail-craft"><div class="inner"><button class="close">Close ×</button><div class="eyebrow">Craft &amp; technology</div><h3>Precision that respects nature.</h3><p>From careful selection to cutting, finishing and quality inspection, each stage influences the final look and performance of a stone surface. Modern processing can support accuracy and consistency; experienced eyes help preserve the details that make natural stone distinctive. The result is a material prepared to complement the intent of the architect, designer or homeowner.</p><div class="detail-strip"><video autoplay muted loop playsinline><source src="two.mp4" type="video/mp4"></video><video autoplay muted loop playsinline><source src="four.mp4" type="video/mp4"></video><video autoplay muted loop playsinline><source src="five.mp4" type="video/mp4"></video></div><div class="detail-meta">Selection · Processing · Finishing · Quality</div></div></div></section>
-<section class="pg" id="awards"><div class="awards"><div class="eyebrow" style="text-align:center">A study in texture, tone and finish</div><h2>Material Alchemists</h2><p>A surface changes how a room feels. Polished, honed and textured finishes respond to light differently, while colour and veining can create calm, drama or an architectural statement. The right selection balances the aesthetic vision with the practical needs of the space.</p><div class="award-cards"><article class="award-card"><h3>Polished</h3><p>Reflective surfaces reveal depth, contrast and the movement of natural veining.</p></article><article class="award-card"><h3>Honed</h3><p>A softer, more understated appearance that keeps attention on tone and texture.</p></article><article class="award-card"><h3>Textured</h3><p>Tactile character and surface variation add a distinctive architectural quality.</p></article></div><div style="text-align:center;margin-top:30px"><button class="btn detail-open" data-detail="material">Explore Material &amp; Finish ↗</button></div></div><div class="detail-panel" id="detail-material"><div class="inner"><button class="close">Close ×</button><div class="eyebrow">A closer look at surfaces</div><h3>Texture, tone and finish in conversation.</h3><p>Polished, honed and textured finishes change the way light moves across a surface. Ivory and beige tones can create a calm, open atmosphere; darker stone can introduce contrast and visual weight; expressive veining can become the focal point of a room. Always consider lighting, use, maintenance and the surrounding materials when selecting a finish.</p><div class="detail-strip"><img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1400&q=85" alt="Polished stone and reflected light"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Ivory stone tones in an interior"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85" alt="Texture and depth of natural stone"></div><div class="detail-meta">Surface · Light · Texture · Tone</div></div></div></section>
-<section class="pg" id="sculpture"><div class="section-head"><div class="eyebrow">Since 1982 · Kishangarh, Rajasthan</div><h2>A Living Legacy</h2><p>From a vision set in motion by Shri Bal Mukund ji Heda to a continuing commitment to natural stone and enduring relationships.</p></div><div class="slide"><span class="ar l" id="prev" aria-label="Previous video">&#8249;</span><div class="carousel" id="legacyCarousel"><figure><video autoplay muted loop playsinline><source src="two.mp4" type="video/mp4"></video><figcaption>Experience</figcaption></figure><figure><video autoplay muted loop playsinline><source src="three.mp4" type="video/mp4"></video><figcaption>Material Knowledge</figcaption></figure><figure><video autoplay muted loop playsinline><source src="five.mp4" type="video/mp4"></video><figcaption>Looking Ahead</figcaption></figure></div><span class="ar r" id="next" aria-label="Next video">&#8250;</span><small>Heda Group · Sai Granito India</small></div><div class="hero-bottom"><button class="btn detail-open" data-detail="legacy">Discover Our Legacy ↗</button></div><div class="detail-panel" id="detail-legacy"><div class="inner"><button class="close">Close ×</button><div class="eyebrow">Since 1982 · Kishangarh, Rajasthan</div><h3>A story rooted in Kishangarh.</h3><p>Sai Granito India traces its beginnings to 1982, when Shri Bal Mukund ji Heda envisioned a company dedicated to excellence in stone. Based in Kishangarh, Rajasthan, and part of the Heda Group, the company continues to build on that foundation through material understanding, quality-focused work and long-term relationships. The legacy is not only about time passed, but about continuing to respect the natural character of stone while meeting the needs of contemporary spaces.</p><div class="detail-strip"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1400&q=85" alt="Architecture shaped by natural materials"><img src="https://images.unsplash.com/photo-1503387762-592dead58ef4?auto=format&fit=crop&w=1400&q=85" alt="Contemporary architecture and materials"></div><div class="detail-meta">1982 · Kishangarh · Heda Group</div></div></div></section>
-<section class="pg" id="contact"><div class="section-head"><div class="eyebrow">Start a conversation</div><h2>Bring Stone Into Your Story</h2><p>Share a project, explore a material or ask about finishes and availability.</p></div><div class="contact"><div class="i"><div style="color:#000;font-size:19px">SAI GRANITO INDIA</div><p>Kishangarh, Rajasthan<br>India</p><p><a href="mailto:info@saigranitoindia.com">Email Sai Granito ↗</a></p><p style="font:14px Georgia,serif;color:#777">A Heda Group Company</p></div><form id="contactForm"><label>Name *</label><input name="name" required><label>Email *</label><input type="email" name="email" required><label>Subject</label><input name="subject"><label>Message</label><textarea name="message" required></textarea><button type="submit">Send ↗</button></form></div></section>
-</main><footer><div class="brand">SAI GRANITO<span>THE ART OF STONE</span></div><div class="copyright">© <span id="year"></span> Sai Granito India · A Heda Group Company · Kishangarh, Rajasthan</div></footer>
-<script>
-const pages=[...document.querySelectorAll('.pg')],navLinks=[...document.querySelectorAll('#nav a')];
-function showPage(id){pages.forEach(p=>p.classList.toggle('on',p.id===id));navLinks.forEach(a=>a.classList.toggle('on',a.dataset.p===id));document.querySelector('header').scrollIntoView({behavior:'smooth',block:'start'});}
-navLinks.forEach(a=>a.addEventListener('click',()=>showPage(a.dataset.p)));
-document.querySelectorAll('.detail-open').forEach(b=>b.addEventListener('click',()=>{const p=document.getElementById('detail-'+b.dataset.detail);if(p){p.classList.add('open');p.scrollIntoView({behavior:'smooth',block:'start'});}}));
-document.querySelectorAll('.detail-panel .close').forEach(b=>b.addEventListener('click',()=>{const p=b.closest('.detail-panel');p.classList.remove('open');}));
-const carousel=document.getElementById('legacyCarousel');document.getElementById('prev').addEventListener('click',()=>carousel.scrollBy({left:-carousel.clientWidth*.75,behavior:'smooth'}));document.getElementById('next').addEventListener('click',()=>carousel.scrollBy({left:carousel.clientWidth*.75,behavior:'smooth'}));
-document.getElementById('year').textContent=new Date().getFullYear();
-document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const f=new FormData(e.currentTarget);const subject=encodeURIComponent(f.get('subject')||'Website enquiry');const body=encodeURIComponent('Name: '+f.get('name')+'\nEmail: '+f.get('email')+'\n\n'+f.get('message'));window.location.href='mailto:info@saigranitoindia.com?subject='+subject+'&body='+body;});
-</script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="Discover Sai Granito India, a Heda Group company rooted in Kishangarh, Rajasthan. Explore marble, granite and natural stone.">
+  <title>SAI GRANITO INDIA | The Art of Stone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --paper: #f6f5f1;
+      --white: #fff;
+      --ink: #172b25;
+      --dark: #101311;
+      --gold: #b79a61;
+      --muted: #77776f;
+      --line: #dedbd2;
+      --serif: "Cormorant Garamond", Georgia, serif;
+      --sans: "Montserrat", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--paper);
+    }
+
+    body {
+      margin: 0;
+      color: #242620;
+      background: var(--paper);
+      font-family: var(--serif);
+    }
+
+    button, input, textarea, select { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      position: relative;
+      z-index: 20;
+      padding: 25px 5%;
+      text-align: center;
+      background:
+        repeating-linear-gradient(45deg, #f8f7f4, #f8f7f4 2px, #efeee9 2px, #efeee9 4px);
+      border-bottom: 1px solid #e4e1d9;
+    }
+
+    .brand {
+      margin: 0;
+      color: var(--ink);
+      font: 600 clamp(22px, 3.4vw, 39px)/1.2 var(--sans);
+      letter-spacing: .13em;
+    }
+
+    .brand-sub {
+      margin-top: 8px;
+      color: #8b7446;
+      font: 11px var(--sans);
+      letter-spacing: .28em;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2px;
+      margin-top: 24px;
+    }
+
+    .nav button {
+      border: 0;
+      padding: 14px 17px;
+      color: #34342f;
+      background: #eae9e4;
+      cursor: pointer;
+      font: 12px var(--sans);
+      transition: background .25s, color .25s;
+    }
+
+    .nav button:hover,
+    .nav button.active {
+      color: white;
+      background: #242824;
+    }
+
+    .page { display: none; }
+    .page.active { display: block; }
+
+    .eyebrow {
+      margin-bottom: 17px;
+      color: var(--gold);
+      font: 600 10px/1.7 var(--sans);
+      letter-spacing: .27em;
+      text-transform: uppercase;
+    }
+
+    .section-heading {
+      max-width: 850px;
+      margin: auto;
+      padding: 90px 24px 48px;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 18px;
+      color: var(--ink);
+      font: 400 clamp(38px, 6vw, 68px)/1.03 var(--serif);
+    }
+
+    .section-heading p {
+      max-width: 680px;
+      margin: auto;
+      color: #5c5c55;
+      font-size: 19px;
+      line-height: 1.65;
+    }
+
+    /* HOME: cinematic video sections */
+
+    .film {
+      position: relative;
+      display: grid;
+      min-height: 76vh;
+      min-height: min(790px, 83vh);
+      place-items: center;
+      overflow: hidden;
+      isolation: isolate;
+      color: white;
+      background: #1b211d;
+    }
+
+    .film video {
+      position: absolute;
+      z-index: -2;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(.67);
+    }
+
+    .film::after {
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      content: "";
+      background: linear-gradient(
+        180deg,
+        rgba(0,0,0,.2),
+        rgba(0,0,0,.08) 40%,
+        rgba(0,0,0,.55)
+      );
+    }
+
+    .film-content {
+      width: min(900px, 90%);
+      padding: 65px 15px;
+      text-align: center;
+    }
+
+    .film-content .eyebrow { color: #e4ce9d; }
+
+    .film h2 {
+      margin: 0;
+      font: 400 clamp(44px, 8vw, 100px)/.98 var(--serif);
+      letter-spacing: .025em;
+    }
+
+    .film p {
+      max-width: 620px;
+      margin: 25px auto 30px;
+      font-size: clamp(18px, 2.2vw, 24px);
+      line-height: 1.55;
+    }
+
+    .film-small {
+      min-height: 590px;
+      min-height: min(680px, 76vh);
+    }
+
+    .film-small h2 { font-size: clamp(40px, 6.5vw, 76px); }
+
+    .outline-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 185px;
+      padding: 16px 22px;
+      border: 1px solid rgba(234,215,174,.85);
+      color: white;
+      background: transparent;
+      font: 11px var(--sans);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background .3s, color .3s;
+    }
+
+    .outline-button:hover {
+      color: #171a16;
+      background: #e3d1a8;
+    }
+
+    .film-caption {
+      padding: 36px 20px 42px;
+      text-align: center;
+      background: var(--white);
+    }
+
+    .film-caption p {
+      max-width: 760px;
+      margin: auto;
+      color: #45463f;
+      font-size: clamp(22px, 3vw, 32px);
+      line-height: 1.4;
+    }
+
+    .intro-band {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 0;
+      background: #e8e6df;
+    }
+
+    .intro-band .copy { padding: 70px clamp(25px, 7vw, 100px); }
+
+    .intro-band h2 {
+      margin: 0 0 20px;
+      color: var(--ink);
+      font: 400 clamp(34px, 4.5vw, 56px)/1.06 var(--serif);
+    }
+
+    .intro-band p {
+      color: #55564e;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .intro-band .visual {
+      position: relative;
+      min-height: 450px;
+      height: 100%;
+      overflow: hidden;
+      background: #1b211d;
+    }
+
+    .intro-band video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Collections */
+
+    .collection-area {
+      padding: 0 4% 85px;
+      color: white;
+      background: #151815;
+    }
+
+    .collection-intro {
+      max-width: 850px;
+      margin: auto;
+      padding: 75px 15px 45px;
+      text-align: center;
+    }
+
+    .collection-intro h2 {
+      margin: 0 0 18px;
+      font: 400 clamp(40px, 6vw, 70px)/1 var(--serif);
+    }
+
+    .collection-intro p {
+      max-width: 680px;
+      margin: auto;
+      color: #c7c7bd;
+      font-size: 19px;
+      line-height: 1.6;
+    }
+
+    .collection-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .collection-card {
+      position: relative;
+      display: block;
+      min-height: 330px;
+      overflow: hidden;
+      border: 0;
+      color: white;
+      background: #333;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .collection-card img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .7s;
+    }
+
+    .collection-card::after {
+      position: absolute;
+      inset: 0;
+      content: "";
+      background: linear-gradient(0deg, rgba(0,0,0,.77), transparent 72%);
+    }
+
+    .collection-card:hover img { transform: scale(1.055); }
+
+    .collection-card .card-copy {
+      position: absolute;
+      z-index: 1;
+      right: 20px;
+      bottom: 23px;
+      left: 20px;
+    }
+
+    .collection-card small {
+      display: block;
+      margin-bottom: 8px;
+      color: #e0c996;
+      font: 10px var(--sans);
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+
+    .collection-card h3 {
+      margin: 0;
+      font: 400 clamp(25px, 3vw, 36px)/1.05 var(--serif);
+    }
+
+    /* Video-based content sections */
+
+    .video-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 0 4% 75px;
+      background: #171a17;
+    }
+
+    .video-card {
+      position: relative;
+      min-height: 340px;
+      overflow: hidden;
+      color: white;
+      background: #202520;
+    }
+
+    .video-card video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(.72);
+      transition: transform .7s;
+    }
+
+    .video-card:hover video { transform: scale(1.035); }
+
+    .video-card::after {
+      position: absolute;
+      inset: 0;
+      content: "";
+      background: linear-gradient(0deg, rgba(0,0,0,.65), transparent 70%);
+      pointer-events: none;
+    }
+
+    .video-card .copy {
+      position: absolute;
+      z-index: 1;
+      right: 24px;
+      bottom: 25px;
+      left: 24px;
+    }
+
+    .video-card h3 {
+      margin: 0 0 7px;
+      font: 400 36px var(--serif);
+    }
+
+    .video-card p {
+      max-width: 460px;
+      margin: 0;
+      color: #efeee8;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Details pages */
+
+    .detail-page {
+      display: none;
+      min-height: 70vh;
+      padding-bottom: 70px;
+      background: var(--paper);
+    }
+
+    .detail-page.active { display: block; }
+
+    .detail-hero {
+      position: relative;
+      display: grid;
+      min-height: 420px;
+      place-items: center;
+      overflow: hidden;
+      color: white;
+      background: #1b211d;
+      text-align: center;
+    }
+
+    .detail-hero video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(.6);
+    }
+
+    .detail-hero .copy {
+      position: relative;
+      z-index: 1;
+      padding: 45px 20px;
+    }
+
+    .detail-hero h2 {
+      margin: 0;
+      font: 400 clamp(42px, 7vw, 76px)/1 var(--serif);
+    }
+
+    .detail-hero p {
+      max-width: 650px;
+      margin: 20px auto 0;
+      font-size: 19px;
+      line-height: 1.6;
+    }
+
+    .detail-text {
+      max-width: 900px;
+      margin: auto;
+      padding: 55px 25px 25px;
+    }
+
+    .detail-text h3 {
+      color: var(--ink);
+      font: 400 36px var(--serif);
+    }
+
+    .detail-text p {
+      color: #53544d;
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    .stone-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+      max-width: 1300px;
+      margin: auto;
+      padding: 10px 4% 55px;
+    }
+
+    .stone-card {
+      overflow: hidden;
+      background: white;
+      cursor: pointer;
+      transition: box-shadow .25s;
+    }
+
+    .stone-card:hover { box-shadow: 0 10px 30px #00000012; }
+
+    .stone-card img {
+      display: block;
+      width: 100%;
+      height: 290px;
+      object-fit: cover;
+      background: #e2e0d9;
+    }
+
+    .stone-card .stone-copy { padding: 20px; }
+
+    .stone-card h3 {
+      margin: 0 0 8px;
+      color: var(--ink);
+      font: 500 28px var(--serif);
+    }
+
+    .stone-card p {
+      margin: 0;
+      color: #68685f;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .stone-detail {
+      display: none;
+      max-width: 1100px;
+      margin: 0 auto 60px;
+      padding: 35px;
+      background: white;
+    }
+
+    .stone-detail.active { display: block; }
+
+    .stone-detail img {
+      width: 100%;
+      max-height: 520px;
+      object-fit: cover;
+    }
+
+    .stone-detail h3 {
+      margin: 24px 0 10px;
+      color: var(--ink);
+      font: 400 42px var(--serif);
+    }
+
+    .stone-detail p {
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin: 25px 0;
+      padding: 12px 17px;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      font: 11px var(--sans);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    /* Legacy and contact */
+
+    .legacy-band {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 520px;
+      background: #e5e3dc;
+    }
+
+    .legacy-band video {
+      width: 100%;
+      height: 100%;
+      min-height: 430px;
+      object-fit: cover;
+    }
+
+    .legacy-band .copy {
+      align-self: center;
+      padding: 55px clamp(25px, 6vw, 80px);
+    }
+
+    .legacy-band h2 {
+      margin: 0 0 20px;
+      color: var(--ink);
+      font: 400 clamp(36px, 5vw, 58px)/1.06 var(--serif);
+    }
+
+    .legacy-band p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      max-width: 1050px;
+      margin: auto;
+      padding: 40px 25px 100px;
+    }
+
+    .contact-copy h3 {
+      color: var(--ink);
+      font: 400 42px var(--serif);
+    }
+
+    .contact-copy p {
+      color: #55564f;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 0 0 8px;
+      font: 11px var(--sans);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+      width: 100%;
+      margin-bottom: 19px;
+      padding: 14px;
+      border: 1px solid #d9d6cc;
+      border-radius: 0;
+      background: white;
+      color: #242620;
+      font: 15px var(--sans);
+    }
+
+    .contact-form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .solid-button {
+      padding: 16px 22px;
+      border: 1px solid var(--ink);
+      color: white;
+      background: var(--ink);
+      cursor: pointer;
+      font: 11px var(--sans);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    footer {
+      padding: 55px 20px;
+      color: #e8e6de;
+      background: #111411;
+      text-align: center;
+    }
+
+    footer .brand { color: #eee9dc; font-size: 20px; }
+    footer .brand-sub { color: #c7ad78; }
+    footer p {
+      margin: 25px 0 0;
+      color: #b9b9b0;
+      font: 11px/1.8 var(--sans);
+    }
+
+    @media (max-width: 850px) {
+      .nav button { padding: 12px 10px; font-size: 11px; }
+      .film { min-height: 620px; min-height: 75svh; }
+      .intro-band, .legacy-band { grid-template-columns: 1fr; }
+      .intro-band .visual { min-height: 380px; }
+      .legacy-band video { min-height: 350px; }
+      .collection-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .collection-card { min-height: 280px; }
+      .stone-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .stone-card img { height: 240px; }
+      .contact-layout { grid-template-columns: 1fr; gap: 10px; }
+    }
+
+    @media (max-width: 560px) {
+      .topbar { padding: 23px 10px 0; }
+      .brand { font-size: 21px; letter-spacing: .08em; }
+      .brand-sub { font-size: 9px; }
+      .nav { margin-top: 20px; gap: 2px; }
+      .nav button { flex: 1 1 28%; padding: 12px 5px; font-size: 10px; }
+      .film { min-height: 570px; min-height: 72svh; }
+      .film-content { width: 96%; }
+      .film h2 { font-size: clamp(43px, 13vw, 70px); }
+      .film p { font-size: 18px; }
+      .section-heading { padding: 65px 20px 35px; }
+      .intro-band .copy { padding: 48px 24px; }
+      .intro-band .visual { min-height: 300px; }
+      .collection-area { padding: 0 12px 55px; }
+      .collection-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .collection-card { min-height: 235px; }
+      .collection-card .card-copy { left: 12px; right: 10px; bottom: 14px; }
+      .collection-card h3 { font-size: 24px; }
+      .collection-card small { font-size: 8px; letter-spacing: .1em; }
+      .video-gallery { grid-template-columns: 1fr; padding: 0 12px 45px; }
+      .video-card { min-height: 300px; }
+      .stone-grid { grid-template-columns: 1fr; padding: 10px 15px 40px; gap: 15px; }
+      .stone-card img { height: 280px; }
+      .stone-detail { margin: 0 12px 35px; padding: 18px; }
+      .stone-detail h3 { font-size: 34px; }
+      .detail-hero { min-height: 370px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <h1 class="brand">SAI GRANITO INDIA</h1>
+    <div class="brand-sub">THE ART OF STONE · A HEDA GROUP COMPANY</div>
+
+    <nav class="nav" aria-label="Main navigation">
+      <button class="active" data-page="home">Home</button>
+      <button data-page="about">About Us</button>
+      <button data-page="collections">Collections</button>
+      <button data-page="craft">Craftsmanship</button>
+      <button data-page="materials">Materials &amp; Finish</button>
+      <button data-page="legacy">Our Legacy</button>
+      <button data-page="contact">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME PAGE -->
+    <div class="page active" id="home">
+
+      <!-- HERO: one.mp4 -->
+      <section class="film">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="one.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Kishangarh · Rajasthan · Since 1982</div>
+          <h2>SAI GRANITO</h2>
+          <p>Nature, refined by time. Stone, selected with vision.</p>
+          <button class="outline-button" data-goto="collections">Explore Collections ↗</button>
+        </div>
+      </section>
+
+      <div class="film-caption">
+        <div class="eyebrow">The Art of Natural Stone</div>
+        <p>Distinctive materials. Timeless character. Spaces that leave a lasting impression.</p>
+      </div>
+
+      <!-- ABOUT TEASER: two.mp4 -->
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="two.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">A Legacy Since 1982</div>
+          <h2>A STORY<br>CARVED IN STONE.</h2>
+          <p>A heritage rooted in Kishangarh and a continuing appreciation for natural stone.</p>
+          <button class="outline-button" data-goto="about">Discover Our Story ↗</button>
+        </div>
+      </section>
+
+      <!-- COLLECTION TEASER: three.mp4 -->
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="three.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Discover Our Collections</div>
+          <h2>EVERY STONE.<br>A DIFFERENT STORY.</h2>
+          <p>Explore natural patterns, rich colours and the individuality of every surface.</p>
+          <button class="outline-button" data-goto="collections">Find Your Stone ↗</button>
+        </div>
+      </section>
+
+      <!-- CRAFT TEASER: four.mp4 -->
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="four.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">The Art of Craftsmanship</div>
+          <h2>WHERE NATURE<br>MEETS CRAFT.</h2>
+          <p>Discover the attention to material, detail and finish that shapes a beautiful surface.</p>
+          <button class="outline-button" data-goto="craft">Explore Our Craft ↗</button>
+        </div>
+      </section>
+
+      <!-- MATERIALS TEASER: five.mp4 -->
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="five.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Material · Texture · Finish</div>
+          <h2>BEAUTY IN<br>EVERY DETAIL.</h2>
+          <p>From subtle tones to expressive veins, natural stone gives every space its own identity.</p>
+          <button class="outline-button" data-goto="materials">Discover Materials ↗</button>
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div class="copy">
+          <div class="eyebrow">Explore the Collection</div>
+          <h2>Find the stone that defines your space.</h2>
+          <p>From Italian marble to Indian marble and granite, discover material references for interiors, architecture and considered design.</p>
+          <button class="solid-button" data-goto="collections">View Stone Collections ↗</button>
+        </div>
+        <div class="visual">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="three.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <footer>
+        <div class="brand">SAI GRANITO INDIA</div>
+        <div class="brand-sub">THE ART OF STONE</div>
+        <p>A Heda Group Company · Kishangarh, Rajasthan, India<br>
+          Established in 1982</p>
+      </footer>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <section class="page" id="about">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="two.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Our Story · Since 1982</div>
+          <h2>A LEGACY<br>OF STONE.</h2>
+          <p>Sai Granito India · A Heda Group Company</p>
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div class="copy">
+          <div class="eyebrow">Our Heritage</div>
+          <h2>Rooted in Kishangarh.</h2>
+          <p>Sai Granito India is associated with the Heda Group and has a history dating back to 1982, when Shri Bal Mukund ji Heda began a journey shaped by a lasting appreciation for natural stone.</p>
+          <p>Based in Kishangarh, Rajasthan, the brand's story is connected with the region's long-standing marble and natural-stone trade.</p>
+        </div>
+        <div class="visual">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="one.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="five.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Our Philosophy</div>
+          <h2>RESPECT THE<br>NATURAL.</h2>
+          <p>Every stone has its own pattern, movement and character.</p>
+        </div>
+      </section>
+
+      <div class="film-caption">
+        <div class="eyebrow">Sai Granito India</div>
+        <p>A continuing commitment to material knowledge, careful selection and enduring relationships.</p>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS PAGE -->
+    <section class="page" id="collections">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="three.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Explore Natural Stone</div>
+          <h2>FIND YOUR<br>STONE.</h2>
+          <p>Discover the colours, patterns and textures that inspire your next space.</p>
+        </div>
+      </section>
+
+      <div class="collection-area">
+        <div class="collection-intro">
+          <div class="eyebrow">The Collections</div>
+          <h2>Nature's Finest Expressions</h2>
+          <p>Choose a collection to explore individual materials, reference imagery and stone descriptions. Actual stock and origin should be confirmed with Sai Granito India.</p>
+        </div>
+
+        <div class="collection-grid">
+          <button class="collection-card" data-collection="italian">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85" alt="Light marble with expressive veining" loading="lazy">
+            <span class="card-copy"><small>01 · European Stone</small><h3>Italian Marble</h3></span>
+          </button>
+
+          <button class="collection-card" data-collection="makrana">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="White marble in an elegant interior" loading="lazy">
+            <span class="card-copy"><small>02 · Rajasthan</small><h3>Makrana Marble</h3></span>
+          </button>
+
+          <button class="collection-card" data-collection="indian">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85" alt="Natural marble surface" loading="lazy">
+            <span class="card-copy"><small>03 · Indian Stone</small><h3>Indian Marble</h3></span>
+          </button>
+
+          <button class="collection-card" data-collection="granite">
+            <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85" alt="Dark natural stone surface" loading="lazy">
+            <span class="card-copy"><small>04 · Strength & Character</small><h3>Granite</h3></span>
+          </button>
+
+          <button class="collection-card" data-collection="exotic">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Distinctive natural stone interior" loading="lazy">
+            <span class="card-copy"><small>05 · Distinctive Materials</small><h3>Exotic Stone</h3></span>
+          </button>
+
+          <button class="collection-card" data-collection="finishes">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85" alt="Decorative natural material in a refined interior" loading="lazy">
+            <span class="card-copy"><small>06 · Surface Design</small><h3>Finishes & Textures</h3></span>
+          </button>
+        </div>
+      </div>
+
+      <section class="detail-page" id="collection-detail">
+        <div class="detail-hero">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="three.mp4" type="video/mp4">
+          </video>
+          <div class="copy">
+            <div class="eyebrow">Sai Granito India · Stone Collection</div>
+            <h2 id="collection-title">Italian Marble</h2>
+            <p id="collection-description">Explore the collection.</p>
+          </div>
+        </div>
+
+        <button class="back-button" id="back-collections">← Back to All Collections</button>
+
+        <div class="stone-grid" id="stone-grid"></div>
+
+        <div class="stone-detail" id="stone-detail">
+          <button class="back-button" id="back-stones">← Back to Stone List</button>
+          <img id="stone-detail-image" src="" alt="">
+          <h3 id="stone-detail-title"></h3>
+          <p id="stone-detail-description"></p>
+          <button class="solid-button" data-goto="contact">Enquire About This Stone ↗</button>
+        </div>
+      </section>
+    </section>
+
+    <!-- CRAFT PAGE -->
+    <section class="page" id="craft">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="four.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Craft & Technology</div>
+          <h2>BEYOND THE<br>SURFACE.</h2>
+          <p>Discover the details, processes and artistry behind natural stone.</p>
+        </div>
+      </section>
+
+      <div class="section-heading">
+        <div class="eyebrow">The Craft of Stone</div>
+        <h2>Nature's Character. Human Precision.</h2>
+        <p>Natural stone has its own movement, colour and variation. Careful material selection and considered finishing help reveal its distinctive qualities.</p>
+      </div>
+
+      <div class="video-gallery">
+        <article class="video-card">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="two.mp4" type="video/mp4">
+          </video>
+          <div class="copy">
+            <h3>Material Selection</h3>
+            <p>Understanding the visual character and variation of natural stone.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="four.mp4" type="video/mp4">
+          </video>
+          <div class="copy">
+            <h3>Craft & Precision</h3>
+            <p>Careful workmanship and attention to the details of each surface.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="five.mp4" type="video/mp4">
+          </video>
+          <div class="copy">
+            <h3>Finishing & Detail</h3>
+            <p>Surface treatment changes how stone responds to light and touch.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="three.mp4" type="video/mp4">
+          </video>
+          <div class="copy">
+            <h3>Natural Variation</h3>
+            <p>Veining and colour variation make every natural stone distinctive.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MATERIALS PAGE -->
+    <section class="page" id="materials">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="five.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Materials · Texture · Finish</div>
+          <h2>BEAUTY IN<br>THE DETAILS.</h2>
+          <p>Explore the relationship between surface, colour, light and material.</p>
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div class="copy">
+          <div class="eyebrow">Polished Surfaces</div>
+          <h2>Light, depth and reflection.</h2>
+          <p>A polished surface can emphasise colour and veining while reflecting light across an interior. Actual finish availability varies by stone.</p>
+        </div>
+        <div class="visual">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="three.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div class="visual">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="four.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="copy">
+          <div class="eyebrow">Material Character</div>
+          <h2>Every texture tells a story.</h2>
+          <p>From understated neutrals to dramatic veining, natural stone introduces an individual character to each space.</p>
+        </div>
+      </section>
+
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="five.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Find Your Finish</div>
+          <h2>MADE FOR<br>YOUR VISION.</h2>
+          <p>Explore stone options and ask about available materials and finishes.</p>
+          <button class="outline-button" data-goto="contact">Make an Enquiry ↗</button>
+        </div>
+      </section>
+    </section>
+
+    <!-- LEGACY PAGE -->
+    <section class="page" id="legacy">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="two.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Since 1982 · Heda Group</div>
+          <h2>A LIVING<br>LEGACY.</h2>
+          <p>Rooted in Kishangarh, Rajasthan, India.</p>
+        </div>
+      </section>
+
+      <section class="legacy-band">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="one.mp4" type="video/mp4">
+        </video>
+        <div class="copy">
+          <div class="eyebrow">Our Beginning</div>
+          <h2>A story rooted in Kishangarh.</h2>
+          <p>Sai Granito India traces its beginnings to 1982 and Shri Bal Mukund ji Heda. As part of the Heda Group, its story is connected with a long-standing appreciation for natural stone and the architectural possibilities it offers.</p>
+        </div>
+      </section>
+
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="three.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Looking Ahead</div>
+          <h2>TIMELESS BY<br>NATURE.</h2>
+          <p>Celebrating natural materials and their place in contemporary spaces.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section class="page" id="contact">
+      <section class="film film-small">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="one.mp4" type="video/mp4">
+        </video>
+        <div class="film-content">
+          <div class="eyebrow">Sai Granito India</div>
+          <h2>LET'S FIND<br>YOUR STONE.</h2>
+          <p>Tell us about the material or project you are exploring.</p>
+        </div>
+      </section>
+
+      <div class="section-heading">
+        <div class="eyebrow">Start a Conversation</div>
+        <h2>Bring Stone Into Your Story.</h2>
+        <p>Send an enquiry about a stone, material, finish or project.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <div class="eyebrow">Visit Our World of Stone</div>
+          <h3>SAI GRANITO INDIA</h3>
+          <p>A Heda Group Company</p>
+          <p>Kishangarh, Rajasthan, India</p>
+          <p>Established in 1982</p>
+          <p>Please use verified business contact details when publishing this website.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Your Name *</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email Address *</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="interest">Stone of Interest</label>
+          <select id="interest" name="interest">
+            <option>Italian Marble</option>
+            <option>Makrana Marble</option>
+            <option>Indian Marble</option>
+            <option>Granite</option>
+            <option>Exotic Stone</option>
+            <option>Materials & Finishes</option>
+            <option>Other Enquiry</option>
+          </select>
+
+          <label for="message">Project Details *</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button class="solid-button" type="submit">Prepare Enquiry ↗</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">SAI GRANITO INDIA</div>
+    <div class="brand-sub">THE ART OF STONE</div>
+    <p>A Heda Group Company · Kishangarh, Rajasthan, India<br>
+      Established 1982<br>
+      © <span id="year"></span> Sai Granito India</p>
+  </footer>
+
+  <script>
+    const navButtons = [...document.querySelectorAll(".nav button")];
+    const pages = [...document.querySelectorAll(".page")];
+
+    function showPage(id) {
+      pages.forEach(page => page.classList.toggle("active", page.id === id));
+
+      navButtons.forEach(button => {
+        button.classList.toggle("active", button.dataset.page === id);
+      });
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    navButtons.forEach(button => {
+      button.addEventListener("click", () => showPage(button.dataset.page));
+    });
+
+    document.querySelectorAll("[data-goto]").forEach(button => {
+      button.addEventListener("click", () => showPage(button.dataset.goto));
+    });
+
+    const collections = {
+      italian: {
+        title: "Italian Marble",
+        description: "Explore established Italian marble names. These are reference varieties; confirm actual origin and stock availability before selection.",
+        stones: [
+          ["Statuario", "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85", "A classic white marble reference with expressive grey veining."],
+          ["Calacatta Gold", "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", "A striking marble appearance with warm, golden-toned veins."],
+          ["Calacatta Borghini", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A premium Calacatta reference known for dramatic patterning."],
+          ["Calacatta Vagli", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A distinctive marble reference with expressive natural movement."],
+          ["Calacatta Viola", "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85", "A dramatic marble reference associated with deep contrasting veins."],
+          ["Bianco Carrara", "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85", "A classic light marble reference with grey natural movement."],
+          ["Arabescato Corchia", "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85", "A striking marble reference with flowing, high-contrast patterns."],
+          ["Venatino", "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", "A light marble reference with elegant linear veining."],
+          ["Rosso Levanto", "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85", "A dramatic red-toned marble reference."],
+          ["Verde Levanto", "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85", "A distinctive green marble reference with dramatic visual character."],
+          ["Botticino Classico", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A warm beige marble reference for understated interiors."],
+          ["Portoro", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A dark, dramatic stone reference with contrasting veins."]
+        ]
+      },
+
+      makrana: {
+        title: "Makrana Marble",
+        description: "Explore Makrana marble reference varieties from Rajasthan. Verify the exact trade name, source and available slab with the supplier.",
+        stones: [
+          ["Makrana White", "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", "A light-toned Makrana marble reference."],
+          ["Albeta", "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85", "A Makrana trade-name reference; verify the exact variety."],
+          ["Dungri", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A Makrana variety reference. Confirm the actual slab appearance."],
+          ["Chak Dungri", "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85", "A Makrana trade-name reference to verify with the supplier."],
+          ["Kumari", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A variety name to confirm against the current catalogue."],
+          ["Makrana Pink", "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85", "A pink-toned marble reference; verify the actual material."]
+        ]
+      },
+
+      indian: {
+        title: "Indian Marble",
+        description: "A reference collection of Indian marble varieties. Actual stone origin and availability should be confirmed before publishing as available inventory.",
+        stones: [
+          ["Morwad White", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A light-toned Indian marble reference."],
+          ["Rajnagar White", "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", "A white marble reference; confirm the specific slab."],
+          ["Banswara White", "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85", "A light Indian marble reference."],
+          ["Banswara Purple", "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85", "A distinctive colour reference; confirm the actual stone."],
+          ["Udaipur Green", "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85", "A green-toned natural stone reference."],
+          ["Rainforest Brown", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A patterned brown stone reference."]
+        ]
+      },
+
+      granite: {
+        title: "Granite",
+        description: "Explore granite as a natural-stone category. Add actual Sai Granito inventory names and matching photographs before presenting individual varieties as stocked products.",
+        stones: [
+          ["Granite Collection", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "Enquire about current colours, slab options and available finishes."]
+        ]
+      },
+
+      exotic: {
+        title: "Exotic Stone",
+        description: "A category for distinctive materials such as onyx, quartzite and travertine where available. Confirm each material's identity and stock.",
+        stones: [
+          ["Onyx", "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85", "A decorative stone reference. Confirm actual material and availability."],
+          ["Quartzite", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A natural-stone category with varied patterns and colours."],
+          ["Travertine", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A stone reference often recognised for its characteristic texture."]
+        ]
+      },
+
+      finishes: {
+        title: "Finishes & Textures",
+        description: "Explore surface treatments where offered. Finish availability depends on the individual stone and its intended application.",
+        stones: [
+          ["Polished Finish", "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", "A reflective surface that can emphasise colour and veining."],
+          ["Honed Finish", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85", "A softer, less reflective surface appearance."],
+          ["Textured Finish", "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85", "A tactile surface reference; confirm finish availability."]
+        ]
+      }
+    };
+
+    const collectionDetail = document.getElementById("collection-detail");
+    const collectionTitle = document.getElementById("collection-title");
+    const collectionDescription = document.getElementById("collection-description");
+    const stoneGrid = document.getElementById("stone-grid");
+    const stoneDetail = document.getElementById("stone-detail");
+
+    document.querySelectorAll("[data-collection]").forEach(card => {
+      card.addEventListener("click", () => {
+        const collection = collections[card.dataset.collection];
+        if (!collection) return;
+
+        collectionTitle.textContent = collection.title;
+        collectionDescription.textContent = collection.description;
+        stoneGrid.innerHTML = "";
+        stoneDetail.classList.remove("active");
+
+        collection.stones.forEach(stone => {
+          const item = document.createElement("article");
+          item.className = "stone-card";
+          item.tabIndex = 0;
+          item.setAttribute("role", "button");
+          item.setAttribute("aria-label", "View " + stone[0]);
+
+          const image = document.createElement("img");
+          image.src = stone[1];
+          image.alt = stone[0] + " representative stone reference";
+          image.loading = "lazy";
+
+          const copy = document.createElement("div");
+          copy.className = "stone-copy";
+
+          const title = document.createElement("h3");
+          title.textContent = stone[0];
+
+          const description = document.createElement("p");
+          description.textContent = stone[2];
+
+          copy.append(title, description);
+          item.append(image, copy);
+
+          function openStone() {
+            document.getElementById("stone-detail-image").src = stone[1];
+            document.getElementById("stone-detail-image").alt = stone[0];
+            document.getElementById("stone-detail-title").textContent = stone[0];
+            document.getElementById("stone-detail-description").textContent =
+              stone[2] + " This is a representative reference, not a confirmation of current stock. Please enquire to verify availability, origin and slab details.";
+
+            stoneDetail.classList.add("active");
+            stoneDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+
+          item.addEventListener("click", openStone);
+          item.addEventListener("keydown", event => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              openStone();
+            }
+          });
+
+          stoneGrid.appendChild(item);
+        });
+
+        collectionDetail.classList.add("active");
+        collectionDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
+    document.getElementById("back-collections").addEventListener("click", () => {
+      collectionDetail.classList.remove("active");
+      stoneDetail.classList.remove("active");
+      document.getElementById("collections").scrollIntoView({ behavior: "smooth" });
+    });
+
+    document.getElementById("back-stones").addEventListener("click", () => {
+      stoneDetail.classList.remove("active");
+      stoneGrid.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.getElementById("contact-form").addEventListener("submit", event => {
+      event.preventDefault();
+
+      const form = new FormData(event.currentTarget);
+      const name = form.get("name");
+      const email = form.get("email");
+      const interest = form.get("interest");
+      const message = form.get("message");
+
+      const subject = encodeURIComponent("Sai Granito Website Enquiry - " + interest);
+      const body = encodeURIComponent(
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n" +
+        "Stone of Interest: " + interest + "\n\n" +
+        "Project Details:\n" + message
+      );
+
+      /*
+        Replace the email below with Sai Granito India's verified business email
+        before publishing the website.
+      */
+      window.location.href =
+        "mailto:info@saigranitoindia.com?subject=" + subject + "&body=" + body;
+    });
+
+    // Pause videos on hidden pages to reduce unnecessary resource usage.
+    function updateVideoPlayback() {
+      document.querySelectorAll(".page").forEach(page => {
+        const visible = page.classList.contains("active");
+        page.querySelectorAll("video").forEach(video => {
+          if (!visible) {
+            video.pause();
+          } else {
+            const playPromise = video.play();
+            if (playPromise && typeof playPromise.catch === "function") {
+              playPromise.catch(() => {});
+            }
+          }
+        });
+      });
+    }
+
+    navButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        window.setTimeout(updateVideoPlayback, 50);
+      });
+    });
+
+    document.querySelectorAll("[data-goto]").forEach(button => {
+      button.addEventListener("click", () => {
+        window.setTimeout(updateVideoPlayback, 50);
+      });
+    });
+  </script>
+</body>
+</html>
