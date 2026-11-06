@@ -127,8 +127,8 @@
     .film {
       position: relative;
       display: grid;
-      min-height: 76vh;
-      min-height: min(790px, 83vh);
+      min-height: 82vh;
+      min-height: min(880px, 88vh);
       place-items: center;
       overflow: hidden;
       isolation: isolate;
@@ -181,8 +181,8 @@
     }
 
     .film-small {
-      min-height: 590px;
-      min-height: min(680px, 76vh);
+      min-height: 660px;
+      min-height: min(760px, 82vh);
     }
 
     .film-small h2 { font-size: clamp(40px, 6.5vw, 76px); }
@@ -246,7 +246,7 @@
 
     .intro-band .visual {
       position: relative;
-      min-height: 450px;
+      min-height: 520px;
       height: 100%;
       overflow: hidden;
       background: #1b211d;
@@ -299,7 +299,7 @@
     .collection-card {
       position: relative;
       display: block;
-      min-height: 330px;
+      min-height: 380px;
       overflow: hidden;
       border: 0;
       color: white;
@@ -360,7 +360,7 @@
 
     .video-card {
       position: relative;
-      min-height: 340px;
+      min-height: 390px;
       overflow: hidden;
       color: white;
       background: #202520;
@@ -559,7 +559,7 @@
     .legacy-band {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      min-height: 520px;
+      min-height: 600px;
       background: #e5e3dc;
     }
 
@@ -660,12 +660,12 @@
 
     @media (max-width: 850px) {
       .nav button { padding: 12px 10px; font-size: 11px; }
-      .film { min-height: 620px; min-height: 75svh; }
+      .film { min-height: 680px; min-height: 82svh; }
       .intro-band, .legacy-band { grid-template-columns: 1fr; }
-      .intro-band .visual { min-height: 380px; }
+      .intro-band .visual { min-height: 430px; }
       .legacy-band video { min-height: 350px; }
       .collection-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .collection-card { min-height: 280px; }
+      .collection-card { min-height: 320px; }
       .stone-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .stone-card img { height: 240px; }
       .contact-layout { grid-template-columns: 1fr; gap: 10px; }
@@ -677,21 +677,21 @@
       .brand-sub { font-size: 9px; }
       .nav { margin-top: 20px; gap: 2px; }
       .nav button { flex: 1 1 28%; padding: 12px 5px; font-size: 10px; }
-      .film { min-height: 570px; min-height: 72svh; }
+      .film { min-height: 620px; min-height: 78svh; }
       .film-content { width: 96%; }
       .film h2 { font-size: clamp(43px, 13vw, 70px); }
       .film p { font-size: 18px; }
       .section-heading { padding: 65px 20px 35px; }
       .intro-band .copy { padding: 48px 24px; }
-      .intro-band .visual { min-height: 300px; }
+      .intro-band .visual { min-height: 340px; }
       .collection-area { padding: 0 12px 55px; }
       .collection-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-      .collection-card { min-height: 235px; }
+      .collection-card { min-height: 265px; }
       .collection-card .card-copy { left: 12px; right: 10px; bottom: 14px; }
       .collection-card h3 { font-size: 24px; }
       .collection-card small { font-size: 8px; letter-spacing: .1em; }
       .video-gallery { grid-template-columns: 1fr; padding: 0 12px 45px; }
-      .video-card { min-height: 300px; }
+      .video-card { min-height: 340px; }
       .stone-grid { grid-template-columns: 1fr; padding: 10px 15px 40px; gap: 15px; }
       .stone-card img { height: 280px; }
       .stone-detail { margin: 0 12px 35px; padding: 18px; }
@@ -740,11 +740,6 @@
           <button class="outline-button" data-goto="collections">Explore Collections ↗</button>
         </div>
       </section>
-
-      <div class="film-caption">
-        <div class="eyebrow">The Art of Natural Stone</div>
-        <p>Distinctive materials. Timeless character. Spaces that leave a lasting impression.</p>
-      </div>
 
       <!-- ABOUT TEASER: two.mp4 -->
       <section class="film film-small">
